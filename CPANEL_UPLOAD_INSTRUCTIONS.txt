@@ -26,10 +26,14 @@ UPLOAD KARNE KE LIYE YE STEPS FOLLOW KAREIN:
    - Ye files select karein aur upload karein:
      ✓ index.html
      ✓ .htaccess
-     ✓ assets folder (saari images ke saath)
-     ✓ assets folder (JavaScript files ke saath - jo index-*.js hain)
+     ✓ assets folder (COMPLETE FOLDER with saari images - ye bahut zaruri hai!)
+     ✓ assets folder (JavaScript files - index-*.js)
 
-   IMPORTANT: "dist" folder ko directly upload mat karein, sirf uski ANDAR ki files upload karein
+   IMPORTANT:
+   - "dist" folder ko directly upload mat karein, sirf uski ANDAR ki files upload karein
+   - "assets" folder ko POORA upload karna ZARURI hai saari images ke saath
+   - Agar assets folder already hai to pehle delete kar ke phir naya upload karein
+   - Folder structure exactly aisa hona chahiye: public_html/assets/image.jpg
 
 6. FILE PERMISSIONS CHECK KAREIN:
    - .htaccess file pe right-click karein

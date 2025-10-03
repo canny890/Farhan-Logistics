@@ -91,7 +91,7 @@ export const SERVICES: Service[] = [
 export const FLEET: Vehicle[] = [
   {
     name: 'Warehouse Management Fleet',
-    image: 'assets/warehouse-management.jpg',
+    image: '/assets/warehouse-management.jpg',
     specs: {
       type: 'Warehouse Equipment',
       capacity: 'Custom Solutions',
@@ -101,7 +101,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Transport Operator Fleet',
-    image: 'assets/transport-operator.jpg',
+    image: '/assets/transport-operator.jpg',
     specs: {
       type: 'Mixed Fleet',
       capacity: 'Various',
@@ -111,7 +111,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Heavy-Duty Crane Trailer',
-    image: 'assets/crane-trailer.jpg',
+    image: '/assets/crane-trailer.jpg',
     specs: {
       type: 'Hydraulic Crane Trailer',
       capacity: '100-250 Tons',
@@ -121,7 +121,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'General Trading Fleet',
-    image: 'assets/general-traders.jpg',
+    image: '/assets/general-traders.jpg',
     specs: {
       type: 'Multi-Purpose Trailers',
       capacity: 'Various',
@@ -131,7 +131,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Container Handling Equipment',
-    image: 'assets/container-handling.jpg',
+    image: '/assets/container-handling.jpg',
     specs: {
       type: 'Reach Stacker',
       capacity: '45 Tons',
@@ -141,7 +141,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Shipping Line Fleet',
-    image: 'assets/shipping-line.jpg',
+    image: '/assets/shipping-line.jpg',
     specs: {
       type: 'Dedicated Transport',
       capacity: 'Various',
@@ -151,7 +151,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: '40ft Container Trailer',
-    image: 'assets/40ft-container-trailer.jpg',
+    image: '/assets/40ft-container-trailer.jpg',
     specs: {
       type: 'Container Trailer',
       capacity: '40ft Containers',
@@ -161,7 +161,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: '20ft Flatbed Trailer',
-    image: 'assets/20ft-flatbed-trailer.jpeg',
+    image: '/assets/20ft-flatbed-trailer.jpeg',
     specs: {
       type: 'Flatbed Trailer',
       capacity: '20ft Cargo',
@@ -171,7 +171,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Lowbed Trailer',
-    image: 'assets/lowbed-trailer.jpg',
+    image: '/assets/lowbed-trailer.jpg',
     specs: {
       type: 'Lowbed Trailer',
       capacity: '50-100 Tons',
@@ -182,7 +182,7 @@ export const FLEET: Vehicle[] = [
   
   {
     name: 'Side Curtain Trailer',
-    image: 'assets/curtainsider-trailer.jpg',
+    image: '/assets/curtainsider-trailer.jpg',
     specs: {
       type: 'Curtainsider',
       capacity: '24 Pallets',
@@ -192,7 +192,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Heavy Haulage Trailer',
-    image: 'assets/heavy-haulage.jpg',
+    image: '/assets/heavy-haulage.jpg',
     specs: {
       type: 'Modular Trailer',
       capacity: '200+ Tons',
@@ -202,7 +202,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Bulk Cargo Trailer',
-    image: 'assets/bulk-cargo-trailer.jpg',
+    image: '/assets/bulk-cargo-trailer.jpg',
     specs: {
       type: 'Tipper Trailer',
       capacity: '40 Cubic Meters',
