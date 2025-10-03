@@ -1,0 +1,68 @@
+==========================================
+FARHAN LOGISTICS - cPanel UPLOAD GUIDE
+==========================================
+
+UPLOAD KARNE KE LIYE YE STEPS FOLLOW KAREIN:
+
+1. BUILD FOLDER:
+   - "dist" folder mein aapki production-ready files hain
+
+2. CPANEL MEIN LOGIN KAREIN:
+   - Apne hosting provider ka cPanel open karein
+   - Username aur password se login karein
+
+3. FILE MANAGER OPEN KAREIN:
+   - cPanel mein "File Manager" ko click karein
+   - "public_html" folder ko select karein
+
+4. PURANI FILES DELETE KAREIN (Agar koi hain):
+   - public_html folder mein jo bhi files/folders hain unhe select karein
+   - "Delete" button pe click karein
+   - NOTE: .htaccess ko delete mat karna agar already hai
+
+5. DIST FOLDER KI SAARI FILES UPLOAD KAREIN:
+   - "Upload" button pe click karein
+   - Apne computer se "dist" folder ko open karein
+   - Ye files select karein aur upload karein:
+     ✓ index.html
+     ✓ .htaccess
+     ✓ assets folder (saari images ke saath)
+     ✓ assets folder (JavaScript files ke saath - jo index-*.js hain)
+
+   IMPORTANT: "dist" folder ko directly upload mat karein, sirf uski ANDAR ki files upload karein
+
+6. FILE PERMISSIONS CHECK KAREIN:
+   - .htaccess file pe right-click karein
+   - "Change Permissions" select karein
+   - Permission "644" set karein
+
+7. ENVIRONMENT VARIABLES (Agar zaroorat ho):
+   - Agar aapke paas .env file hai secrets ke saath:
+   - cPanel mein "Select PHP Version" ya "Environment Variables" option dhundein
+   - Wahan environment variables add karein
+
+8. TESTING:
+   - Apna domain browser mein open karein (e.g., www.yoursite.com)
+   - Check karein ke website properly load ho rahi hai
+   - Saare pages test karein
+
+==========================================
+IMPORTANT NOTES:
+==========================================
+
+✓ .htaccess file zaruri hai - ye React Router ko handle karta hai
+✓ Assets folder mein saari images hain
+✓ Agar koi error aaye to cPanel ke "Error Log" check karein
+✓ SSL certificate recommended hai (HTTPS ke liye)
+✓ Backup hamesha rakhein upload se pehle
+
+==========================================
+CONTACT SUPPORT:
+==========================================
+
+Agar koi problem aaye to:
+1. Apne hosting provider ka support contact karein
+2. Error logs check karein cPanel mein
+3. Browser console check karein (F12 dabayen)
+
+==========================================
