@@ -1,0 +1,23 @@
+// Type definitions for API responses
+declare module '/api/submit-quote' {
+  interface SubmitQuoteResponse {
+    success: boolean;
+    message: string;
+    previewUrl?: string;
+    error?: string;
+  }
+
+  const submitQuote: (data: {
+    name: string;
+    email: string;
+    phone: string;
+    pickup: string;
+    dropoff: string;
+    shipmentType: string;
+    weight: string;
+    shipmentDate: string;
+    details: string;
+  }) => Promise<SubmitQuoteResponse>;
+
+  export default submitQuote;
+}
