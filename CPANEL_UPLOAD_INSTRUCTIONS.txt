@@ -26,14 +26,12 @@ UPLOAD KARNE KE LIYE YE STEPS FOLLOW KAREIN:
    - Ye files select karein aur upload karein:
      ✓ index.html
      ✓ .htaccess
-     ✓ assets folder (COMPLETE FOLDER with saari images - ye bahut zaruri hai!)
-     ✓ assets folder (JavaScript files - index-*.js)
+     ✓ assets folder (JavaScript files ke liye)
 
    IMPORTANT:
    - "dist" folder ko directly upload mat karein, sirf uski ANDAR ki files upload karein
-   - "assets" folder ko POORA upload karna ZARURI hai saari images ke saath
-   - Agar assets folder already hai to pehle delete kar ke phir naya upload karein
-   - Folder structure exactly aisa hona chahiye: public_html/assets/image.jpg
+   - IMAGES AB ONLINE PEXELS SE LOAD HOTI HAIN - local images upload karne ki zaroorat NAHI
+   - Sirf 3 files/folders upload karna hai: index.html, .htaccess, aur assets folder (jo JavaScript files contain karega)
 
 6. FILE PERMISSIONS CHECK KAREIN:
    - .htaccess file pe right-click karein
@@ -55,10 +53,11 @@ IMPORTANT NOTES:
 ==========================================
 
 ✓ .htaccess file zaruri hai - ye React Router ko handle karta hai
-✓ Assets folder mein saari images hain
+✓ IMAGES ab Pexels.com se online load hoti hain - fast aur reliable
 ✓ Agar koi error aaye to cPanel ke "Error Log" check karein
 ✓ SSL certificate recommended hai (HTTPS ke liye)
 ✓ Backup hamesha rakhein upload se pehle
+✓ Pictures dikhne mein 2-3 seconds lag sakta hai pehli baar (loading time)
 
 ==========================================
 CONTACT SUPPORT:

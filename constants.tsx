@@ -91,7 +91,7 @@ export const SERVICES: Service[] = [
 export const FLEET: Vehicle[] = [
   {
     name: 'Warehouse Management Fleet',
-    image: '/assets/warehouse-management.jpg',
+    image: 'https://images.pexels.com/photos/4483610/pexels-photo-4483610.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Warehouse Equipment',
       capacity: 'Custom Solutions',
@@ -101,7 +101,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Transport Operator Fleet',
-    image: '/assets/transport-operator.jpg',
+    image: 'https://images.pexels.com/photos/1427107/pexels-photo-1427107.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Mixed Fleet',
       capacity: 'Various',
@@ -111,7 +111,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Heavy-Duty Crane Trailer',
-    image: '/assets/crane-trailer.jpg',
+    image: 'https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Hydraulic Crane Trailer',
       capacity: '100-250 Tons',
@@ -121,7 +121,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'General Trading Fleet',
-    image: '/assets/general-traders.jpg',
+    image: 'https://images.pexels.com/photos/8828525/pexels-photo-8828525.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Multi-Purpose Trailers',
       capacity: 'Various',
@@ -131,7 +131,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Container Handling Equipment',
-    image: '/assets/container-handling.jpg',
+    image: 'https://images.pexels.com/photos/2226458/pexels-photo-2226458.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Reach Stacker',
       capacity: '45 Tons',
@@ -141,7 +141,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Shipping Line Fleet',
-    image: '/assets/shipping-line.jpg',
+    image: 'https://images.pexels.com/photos/906982/pexels-photo-906982.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Dedicated Transport',
       capacity: 'Various',
@@ -151,7 +151,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: '40ft Container Trailer',
-    image: '/assets/40ft-container-trailer.jpg',
+    image: 'https://images.pexels.com/photos/1427541/pexels-photo-1427541.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Container Trailer',
       capacity: '40ft Containers',
@@ -161,7 +161,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: '20ft Flatbed Trailer',
-    image: '/assets/20ft-flatbed-trailer.jpeg',
+    image: 'https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Flatbed Trailer',
       capacity: '20ft Cargo',
@@ -171,7 +171,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Lowbed Trailer',
-    image: '/assets/lowbed-trailer.jpg',
+    image: 'https://images.pexels.com/photos/1078884/pexels-photo-1078884.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Lowbed Trailer',
       capacity: '50-100 Tons',
@@ -179,10 +179,10 @@ export const FLEET: Vehicle[] = [
       idealFor: 'Heavy machinery, construction equipment, transformers',
     },
   },
-  
+
   {
     name: 'Side Curtain Trailer',
-    image: '/assets/curtainsider-trailer.jpg',
+    image: 'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Curtainsider',
       capacity: '24 Pallets',
@@ -192,7 +192,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Heavy Haulage Trailer',
-    image: '/assets/heavy-haulage.jpg',
+    image: 'https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Modular Trailer',
       capacity: '200+ Tons',
@@ -202,7 +202,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     name: 'Bulk Cargo Trailer',
-    image: '/assets/bulk-cargo-trailer.jpg',
+    image: 'https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&w=800',
     specs: {
       type: 'Tipper Trailer',
       capacity: '40 Cubic Meters',
@@ -210,7 +210,7 @@ export const FLEET: Vehicle[] = [
       idealFor: 'Construction materials, grains, and bulk cargo',
     },
   },
-  
+
 ];
 
 export const TESTIMONIALS: Testimonial[] = [

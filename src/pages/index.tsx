@@ -10,8 +10,8 @@ export const HomePage: React.FC = () => (
     {/* Hero Section */}
     <section 
       className="relative h-[60vh] sm:h-[70vh] md:h-[85vh] flex items-center justify-center text-white bg-cover bg-center bg-fixed"
-      style={{ 
-        backgroundImage: 'url(/assets/slider.jpg)',
+      style={{
+        backgroundImage: 'url(https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1600)',
         backgroundAttachment: 'fixed'
       }}
     >
@@ -149,9 +149,9 @@ export const AboutPage: React.FC = () => (
             </div>
           </div>
           <div className="md:w-1/2">
-            <img 
-              src="/assets/company-profile.jpg" 
-              alt="Farhan Logistics Company" 
+            <img
+              src="https://images.pexels.com/photos/1427107/pexels-photo-1427107.jpeg?auto=compress&cs=tinysrgb&w=800"
+              alt="Farhan Logistics Company"
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
           </div>
@@ -201,9 +201,9 @@ export const AboutPage: React.FC = () => (
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/3 flex justify-center">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
-                <img 
-                  src="/assets/CEO.jpg" 
-                  alt="CEO of Farhan Logistics" 
+                <img
+                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400"
+                  alt="CEO of Farhan Logistics"
                   className="w-full h-full object-cover"
                 />
               </div>
